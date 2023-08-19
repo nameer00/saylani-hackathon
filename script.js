@@ -38,7 +38,7 @@ async function signuphandler() {
     // console.log(user);
     if(user) {
         console.log("le kar jao na")
-        window.location.href= " ../login/login.html"
+        window.location.href= " ./login/login.html"
     }
   })
   .catch((error) => {
